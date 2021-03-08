@@ -7,13 +7,15 @@ import reportWebVitals from './reportWebVitals';
 import HelloComponent from './components/HelloComponent';
 import Login from './components/Login.js';
 
+import BlogPost from "./container/BlogPost/BlogPost.jsx";
+
 class StateFullComponent extends React.Component {
   render() {
     return <p> StateFullComponents </p>
   }
 }
 
-ReactDOM.render(<Login/>, document.getElementById('root'))
+ReactDOM.render(<BlogPost/>, document.getElementById('root'))
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
