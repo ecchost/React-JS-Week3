@@ -3,33 +3,31 @@ import '../css/Login.css';
 
 function Login() {
     return (
-        <div className="container">
+        <div className="class">
+            <br/>
             <h1>Login Form</h1>
-            <div className="card">
-                <h3>Assignment of Week 3</h3>
+            <div className="box">
+            <h3>Assignment Week 3</h3>
                 <br/>
-                <div className="row">
+                <div className="bardiv">
                     <p>Username</p>
-                    <input type="text" placeholder="Input username..." />
+                    <input type="text" placeholder="Input your username ..." />
                 </div>
-                <div className="row">
-                    <p>Password</p>
-                    <input type="text" placeholder="Input your password" />
-                </div>
-                
-
-                <div className="row">
-                    <button className='login-button__green'> Login </button>
-                </div>
-                <div className="row">
-                    <input type="checkbox" name="rememberMe"/>
-                    <p style={{fontWeight:'normal', marginTop:'25px'}}>Remember Me</p>
-                </div>
-
                 <br/>
-
-                <div className="row">
-                    <button className="cancel-button__red">
+                <div className="bardiv">
+                    <p>Password</p>
+                    <input type="text" placeholder="Input your password ..." />
+                </div>
+                <div className="bardiv">
+                    <button className='login'> Login </button>
+                </div>
+                <div className="bardiv-check">
+                    <input type="checkbox" name="checkbox"/>
+                    <p>Remember Me</p>
+                </div>
+                <br/>
+                <div className="bardiv">
+                    <button className="cancel">
                         Cancel
                     </button>
                 </div>
